@@ -39,6 +39,7 @@ function Form() {
       }
     } catch (error) {
       alert("Submitting form failed!");
+      console.log("Subitting failed", error)
     }
   };
 
